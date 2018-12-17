@@ -1,0 +1,2 @@
+# Ring-Interconnect-which-supports-SiFive-TileLink-protocol.
+Ring interconnect in Bluespec SystemVerilog which supports SiFive TileLink protocol. Compiled the interconnect’s code with the recently fabricated India’s first microprocessor’s(SHAKTI 64-bit C-class) code. Successfully simulated the interconnect in Bluesim environment by generating requests for the cores from Automatic Assembly Program Generator(AAPG).
