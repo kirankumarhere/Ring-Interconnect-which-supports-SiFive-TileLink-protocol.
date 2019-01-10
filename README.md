@@ -4,7 +4,7 @@ Ring interconnect in Bluespec SystemVerilog which supports SiFive TileLink proto
 
 Stages of the router:
 Fetches the TileLink protocol packet from the Client node;
-Persorms Packet to Flits conversion; 
+Performs Packet to Flits conversion; 
 Takes care of Route Computation, Virtual Channel allocation, Switch Allocation, Switch and Link Traversal for the flit (which helps the flit to reach the destination router from the source router); 
 Performs recombination of the Flits into a TileLink packet at the destination node router;
 Packet delivery from destination router to the destination client.
